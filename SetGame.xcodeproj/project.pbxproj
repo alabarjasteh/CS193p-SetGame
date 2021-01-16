@@ -11,6 +11,15 @@
 		617944A925874C4B007E757D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944A825874C4B007E757D /* ContentView.swift */; };
 		617944AB25874C4C007E757D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617944AA25874C4C007E757D /* Assets.xcassets */; };
 		617944AE25874C4C007E757D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617944AD25874C4C007E757D /* Preview Assets.xcassets */; };
+		617944BE25875A52007E757D /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944B725875A52007E757D /* SetGame.swift */; };
+		617944C025875A52007E757D /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944B925875A52007E757D /* Grid.swift */; };
+		617944C125875A52007E757D /* SGViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944BA25875A52007E757D /* SGViewModel.swift */; };
+		617944C225875A52007E757D /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944BB25875A52007E757D /* Array+Identifiable.swift */; };
+		617944C325875A52007E757D /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944BC25875A52007E757D /* Diamond.swift */; };
+		617944C425875A52007E757D /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944BD25875A52007E757D /* GridLayout.swift */; };
+		617944C825875BED007E757D /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944C725875BED007E757D /* SetCard.swift */; };
+		617944D025879DD6007E757D /* GeometricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944CF25879DD6007E757D /* GeometricCard.swift */; };
+		617944D42587A0F3007E757D /* FigureBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617944D32587A0F3007E757D /* FigureBuilderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,15 @@
 		617944AA25874C4C007E757D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		617944AD25874C4C007E757D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		617944AF25874C4C007E757D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617944B725875A52007E757D /* SetGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		617944B925875A52007E757D /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		617944BA25875A52007E757D /* SGViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGViewModel.swift; sourceTree = "<group>"; };
+		617944BB25875A52007E757D /* Array+Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		617944BC25875A52007E757D /* Diamond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
+		617944BD25875A52007E757D /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		617944C725875BED007E757D /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		617944CF25879DD6007E757D /* GeometricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricCard.swift; sourceTree = "<group>"; };
+		617944D32587A0F3007E757D /* FigureBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureBuilderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6130C2E1258CF80100B9D690 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				617944BA25875A52007E757D /* SGViewModel.swift */,
+				617944CF25879DD6007E757D /* GeometricCard.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6130C2E2258CF83F00B9D690 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				617944BB25875A52007E757D /* Array+Identifiable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6130C2E3258CF85700B9D690 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				617944BC25875A52007E757D /* Diamond.swift */,
+				617944B925875A52007E757D /* Grid.swift */,
+				617944BD25875A52007E757D /* GridLayout.swift */,
+				617944A825874C4B007E757D /* ContentView.swift */,
+				617944D32587A0F3007E757D /* FigureBuilderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6179449A25874C4B007E757D = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				617944A625874C4B007E757D /* SetGameApp.swift */,
-				617944A825874C4B007E757D /* ContentView.swift */,
+				617944C625875BB6007E757D /* Model */,
+				6130C2E1258CF80100B9D690 /* ViewModel */,
+				6130C2E3258CF85700B9D690 /* View */,
+				6130C2E2258CF83F00B9D690 /* Extensions */,
 				617944AA25874C4C007E757D /* Assets.xcassets */,
 				617944AF25874C4C007E757D /* Info.plist */,
 				617944AC25874C4C007E757D /* Preview Content */,
@@ -67,6 +117,15 @@
 				617944AD25874C4C007E757D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		617944C625875BB6007E757D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				617944B725875A52007E757D /* SetGame.swift */,
+				617944C725875BED007E757D /* SetCard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617944C825875BED007E757D /* SetCard.swift in Sources */,
+				617944D025879DD6007E757D /* GeometricCard.swift in Sources */,
 				617944A925874C4B007E757D /* ContentView.swift in Sources */,
+				617944BE25875A52007E757D /* SetGame.swift in Sources */,
+				617944C025875A52007E757D /* Grid.swift in Sources */,
+				617944D42587A0F3007E757D /* FigureBuilderView.swift in Sources */,
+				617944C325875A52007E757D /* Diamond.swift in Sources */,
+				617944C125875A52007E757D /* SGViewModel.swift in Sources */,
+				617944C425875A52007E757D /* GridLayout.swift in Sources */,
+				617944C225875A52007E757D /* Array+Identifiable.swift in Sources */,
 				617944A725874C4B007E757D /* SetGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
